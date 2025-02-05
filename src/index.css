@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Fira+Code:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  background-color: #1c1e29;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4aee88;
+}
+
+.button-cmn {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer {
+  font-size: 20px;
+  color: #4aee88;
+  position: fixed;
+  bottom: 0;
+  left: 42%;
+  right: 42%;
+  padding-bottom: auto;
+}
+
+/* CodeMirror editor styles */
+.CodeMirror {
+  font-family: "Fira Code", serif; /* Use Fira Code font */
+  font-size: 16px; /* Adjust as needed */
+  color: #f8f8f2; /* Dracula theme text color */
+  background-color: #282a36; /* Dracula theme background color */
+  height: 100%; /* Ensure editor takes full height of its container */
+}
+
+/* Line numbers in the CodeMirror editor */
+.CodeMirror-linenumber, .CodeMirror-line {
+  color: #6272a4; /* Line number color for Dracula theme */
+  font-family: "Fira Code", serif; /* Match the font with editor text */
+}
+
