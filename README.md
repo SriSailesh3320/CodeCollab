@@ -34,7 +34,7 @@ If you want to run CodeCollab locally or contribute to its development, follow t
 
    ```bash
    git clone https://github.com/yourusername/CodeCollab.git
-   cd codecast
+   cd CodeCollab
    ```
 2. Install dependencies:
    ```
