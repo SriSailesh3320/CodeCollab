@@ -28,7 +28,7 @@ CodeCollab is a real-time code collaboration web application that allows multipl
 
 ## Development
 
-If you want to run CodeCast locally or contribute to its development, follow these steps:
+If you want to run CodeCollab locally or contribute to its development, follow these steps:
 
 1. Clone the repository:
 
