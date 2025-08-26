@@ -140,7 +140,7 @@ function EditorPage() {
     setIsCompiling(true);
     setOutput("");
     try {
-      const response = await axios.post("http://localhost:5000/compile", {
+      const response = await axios.post("https://codecollab-9hu9.onrender.com/compile", {
         code: codeRef.current || "",
         language: selectedLanguage,
         stdin: "",
